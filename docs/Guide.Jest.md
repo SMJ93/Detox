@@ -68,7 +68,6 @@ A typical Detox configuration in `.detoxrc.json` file looks like:
 
 ```json
 {
-  "testRunner": "jest",
   "runnerConfig": "e2e/config.json",
   "devices": {
     "simulator": {

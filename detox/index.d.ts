@@ -39,11 +39,6 @@ declare global {
              */
             extends?: string;
             /**
-             * @example testRunner: 'jest'
-             * @example testRunner: 'mocha'
-             */
-            testRunner?: string;
-            /**
              * @example runnerConfig: 'e2e/config.js'
              */
             runnerConfig?: string;

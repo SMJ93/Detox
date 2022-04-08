@@ -59,7 +59,7 @@ to the Detox config file which contains that specific `extends` property, e.g.:
 Note: If there is only one configuration in `configurations`, Detox will default to it.
 
 | Configuration Params | Details                                                                                                              |
-| -------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| -------------------- |----------------------------------------------------------------------------------------------------------------------|
 | `device`             | Device config (object) or an alias pointing to an already defined device in `"devices"` dictionary (see below).      |
 | `app`                | App config (object) or an alias pointing to an already defined application in `"apps"` dictionary (see below).       |
 | `apps`               | Same as the `app`, but that is an array form used for multi-app testing. Mutually exclusive with the `app` property. |
@@ -67,7 +67,7 @@ Note: If there is only one configuration in `configurations`, Detox will default
 | `behavior`           | Overrides to the behavior config. See [Behavior guide](#behavior-configuration).                                     |
 | `session`            | Overrides to the session config. See [Session guide](#server-configuration).                                         |
 |                      |                                                                                                                      |
-| `runnerConfig`       | Path to the test runner config. Default value: `e2e/config.json` (for Jest), `e2e/mocha.opts` (for Mocha).           |
+| `runnerConfig`       | Path to the test runner config. Default value: `e2e/config.json`.                                                    |
 | `specs`              | A default glob pattern for a test runner to use when no test files are specified, e.g.: `e2e/**/*.test.js`           |
 
 **Example:**
